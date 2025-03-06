@@ -29,12 +29,12 @@ let totalAge = age + 5;
 console.log("Total Age: " + totalAge);
 */
 
-let result = "5" - 2;
+let result = "5" - 2; // automatically 3
 console.log("The result is: " + Number(result));
 
 let isValid = "false";
 if (isValid) {
-  console.log(Boolean("This is valid!")); // Adding "Boolean()" outputs: true
+  console.log(Boolean("This is valid!")); // Adding "Boolean()" outputs: true; no longer string
 }
 
 let age = Number("25");
